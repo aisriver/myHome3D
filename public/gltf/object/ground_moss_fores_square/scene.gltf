@@ -1,0 +1,299 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 5593,
+      "max": [
+        24.379020690917969,
+        25.704055786132812,
+        7.4960613250732422
+      ],
+      "min": [
+        -23.920982360839844,
+        -22.595947265625,
+        -1.4102305173873901
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 67116,
+      "componentType": 5126,
+      "count": 5593,
+      "max": [
+        1,
+        1,
+        0.99999940395355225
+      ],
+      "min": [
+        -1,
+        -1,
+        -0.9873620867729187
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 5593,
+      "max": [
+        0.99999034404754639,
+        0.99996006488800049,
+        0.99886250495910645,
+        1
+      ],
+      "min": [
+        -0.99965113401412964,
+        -0.99987703561782837,
+        -0.98829752206802368,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 5593,
+      "max": [
+        0.97273761034011841,
+        0.99890369176864624
+      ],
+      "min": [
+        0.0012517996365204453,
+        0.0014333056751638651
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 29310,
+      "max": [
+        5592
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "3dhdscan (https://sketchfab.com/3dhdscan)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/8b5699d30035485c9564035bb4458a91",
+      "title": "Ground moss fores square 2k"
+    },
+    "generator": "Sketchfab-3.19.5",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 117240,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 44744,
+      "byteOffset": 117240,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 134232,
+      "byteOffset": 161984,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 89488,
+      "byteOffset": 296216,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 385704,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/ground_moss_1-10k_DiffuseMap_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/ground_moss_1-10k_DiffuseMap_normal.jpeg"
+    },
+    {
+      "uri": "textures/ground_moss_1-10k_DiffuseMap_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": false,
+      "name": "ground_moss_1-10k_DiffuseMap",
+      "normalTexture": {
+        "index": 1,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "strength": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.89825211299999996
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "ground_moss_1-10k_ground_moss_1-10k_DiffuseMap_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "ground_moss_1_10k.FBX"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        4.3711388619804836e-06,
+        -5.5511151231257827e-15,
+        99.999999999999915,
+        0,
+        99.999999999999915,
+        1.1102230246251565e-14,
+        -4.3711388675315987e-06,
+        0,
+        -1.6653345369377348e-14,
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "ground_moss_1-10k"
+    },
+    {
+      "mesh": 0,
+      "name": "ground_moss_1-10k_ground_moss_1-10k_DiffuseMap_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 33071,
+      "wrapT": 33071
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
+
