@@ -519,7 +519,7 @@ const gltfLoader = new GLTFLoader(manager);
 // Draco 解码库
 const dracoLoader = new DRACOLoader();
 /** GitHub中使用 */
-dracoLoader.setDecoderPath('/myHome3D/draco/gltf/');
+dracoLoader.setDecoderPath('/myHome3D/build/draco/gltf/');
 /** 开发环境使用 */
 // dracoLoader.setDecoderPath('/draco/gltf/');
 dracoLoader.setDecoderConfig({ type: 'js' });
